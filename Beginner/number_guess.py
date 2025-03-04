@@ -48,10 +48,8 @@ for i in range(7):
         break
     elif guess < guess_number:
         print("The number is higher. Try again.")
-        lower = guess
     else:
         print("The number is lower. Try again.")
-        upper = guess
     
     # Inform the user if number of tries are over
     if i == 6:
